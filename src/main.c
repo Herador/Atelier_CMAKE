@@ -7,7 +7,7 @@ int main(int argc, char *argv[]){
 	if (argc == 4)
 	{
 	char* op = argv[1];
-	char* a = argv[5];
+	char* a = argv[2];
 	char* b = argv[3];
 	double r = 0;
 	if (strcmp(op, "add") == 0) {
