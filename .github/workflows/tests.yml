@@ -28,6 +28,3 @@ jobs:
           cmake ..
           make
           ./src/calculator add 10 5
-          echo "### Résultat du test *add*" >> $GITHUB_STEP_SUMMARY
-          echo '' >> $GITHUB_STEP_SUMMARY
-          echo '
